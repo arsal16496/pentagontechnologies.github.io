@@ -1,0 +1,1011 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    
+    
+     
+    *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          
+           
+        }
+        
+        
+    
+   
+        
+        body
+        {
+           /* background-image: linear-gradient(to right , magenta, cyan);*/
+            background-image:white;
+            height: 610px;
+        }
+        
+        
+        
+        nav
+        {
+            
+            position: absolute;
+            top: -25px;
+            width: 90%;
+            height: 1020px;
+            margin: 25px auto;
+            background: #ebedeb;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+           
+           
+        }
+    
+    
+    
+    aside
+        {
+            position: fixed;
+            width: 20%;
+            height:100%;
+            background: #000d33;
+            float: left;
+            top:0px;
+            
+            
+            
+            
+        }
+    
+        aside h1 img
+        {
+            width: 51px;
+            float: left;
+            border-radius: 50%;
+            
+        }
+        
+        
+        
+        aside h1 span
+        {
+            font-size: 30px;
+            line-height: 50px;
+            margin-left: 6px;
+            color: white;
+        }
+    
+        
+        aside ul
+        {
+            padding: 5px 0 5px 30px;
+        }
+    
+    
+    
+    
+    aside ul li
+        {
+            list-style: none;
+            font-weight: bold;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+            max-height: 35px;
+            line-height: 35px;
+            transition:1s;
+            text-transform: capitalize;
+        }
+    
+    
+    
+    
+    
+     aside ul:first-child li
+        {
+            max-height: 50px;
+        }
+    
+        
+        aside ul li:hover
+        {
+            background: #d1d1d173;
+        }
+        
+        
+    aside ul:first-child li:hover
+        {
+            background: none;
+        }
+        
+        
+        
+        
+    aside ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+    
+    
+    
+      aside ul li a i
+        {
+            width: 30px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        
+        
+        aside ul li a i.fa-angle-right
+        
+        {
+        position: absolute;
+            right: 0;
+            top: 5px;
+            transition: 0.5s;
+        }
+        
+    
+    aside ul li>ul
+        {
+            
+            padding: 1px;
+            margin: 0 0 0 20px;
+        }
+        
+        
+        aside ul li>ul li
+        {
+            height: 25px;
+            line-height: 20px;
+            font-size: 15px;
+            padding: 1px 1px 1px 20px;
+            font-weight: normal;
+            border-left: 1px solid #fff0f0;
+            margin: 5px;
+            color: #fff0f0;
+            cursor: pointer
+        }
+        
+        
+         aside ul li>ul li a,
+        aside ul li:target>ul li a
+        {
+            background: transparent;
+        }
+        
+        
+        
+         aside ul li:target
+        {
+            max-height: 300px;
+            border-radius: 5px 0px 0px 5px;
+        }
+        
+        
+         aside ul li:target a
+        {
+            color: #444;
+            display: inherit;
+            background:white;
+        }
+        
+        
+    
+    
+    
+    aside ul li:target a i.fa-angle-right
+        {
+            transform: rotate(90deg);
+            top:10px;
+            
+        }
+        
+        aside ul li:target:hover
+        {
+            background: initial;
+        }
+        
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+.fast img
+{
+    height:  30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 90px;
+    top:2px;
+    
+}
+
+
+.fast p
+{
+    position: absolute;
+    right:12px;
+    top:8px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+.fast h1
+{
+    position: absolute;
+    left: 22%;
+    top:15px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight:bold;
+    color: aliceblue;
+}
+
+
+
+.fast h2
+{
+    position: absolute;
+    left: 22%;
+    top:80px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+     color: aliceblue;
+    width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line .img1
+{
+    position: relative;
+    top:0px;
+    left:20%;
+    width:79vw;
+    height: 60vh;
+   background-image: linear-gradient(to right top, #949ac4, #868cc4, #797dc3, #6d6ec1, #635fbe);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxes
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+    left: 22%;
+    top:15%;
+     left:25%;
+    top: 15%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+.boxes p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+.boxes i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+.boxes1
+{
+   position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+     left: 25%;
+    top: 20%;
+      box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.boxes1 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes1 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+.boxes1 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+ .boxes2
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background:white;
+    left: 25%;
+    top: 25%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+.boxes2 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes2 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+.boxes2 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .boxes3
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+     left:25%;
+    top: 30%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.boxes3 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes3 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+.boxes3 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+ .boxes4
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+     left: 62%;
+    top: -18%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+    
+}
+
+.boxes4 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes4 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+.boxes4 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxes5
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+    left: 62%;
+    top: -13%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.boxes5 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes5 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+
+
+.boxes5 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxes6
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+    left: 62%;
+    top: -8%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+.boxes6 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes6 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+.boxes6 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+.boxes7
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: white;
+    left: 62%;
+    top: -2%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.boxes7 p
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+
+.boxes7 img
+{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+.boxes7 i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.box
+{
+    height: 400px;
+    top: 20%;
+}
+
+
+.box p
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.box1
+{
+ 
+    position: relative;
+    height: 400px;
+     top: -44%;
+}
+
+
+.box1 p
+{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bahir
+{
+    position: relative;
+    top:40px;
+    width: 158px;
+    height: 200px;
+    background: white;
+    left: 25%; 
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+.bahir img
+{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 80px;
+    height: 100px;
+    
+}
+
+
+.bahir h1
+{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    font-size: 11px;
+}
+
+.bahir p
+{
+     position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 10px;
+    color: #868786;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bahir1
+{
+    position: relative;
+    top:-160px;
+    width: 158px;
+    height: 200px;
+    background: white;
+    left: 42%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+
+.bahir1 img
+{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 80px;
+    height: 100px;
+    
+}
+
+
+.bahir1 h1
+{
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    font-size: 11px;
+}
+
+.bahir1 p
+{
+     position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 10px;
+    color: #868786;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bahir2
+{
+    position: relative;
+    top:-360px;
+    width: 158px;
+    height: 200px;
+    background: white;
+    left: 59%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.bahir2 img
+{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 80px;
+    height: 100px;
+    
+}
+
+
+.bahir2 h1
+{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    font-size: 11px;
+}
+
+.bahir2 p
+{
+     position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 10px;
+    color: #868786;
+}
+
+
+
+
+
+
+
+
+.bahir3
+{
+    position: relative;
+    top:-560px;
+    width: 158px;
+    height: 200px;
+    background: white;
+    left: 76%;
+       box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
+}
+
+
+.bahir3 img
+{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 80px;
+    height: 100px;
+    
+}
+
+
+.bahir3 h1
+{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    font-size: 11px;
+}
+
+.bahir3 p
+{
+     position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 10px;
+    color: #868786;
+}
+
+
+
+
+nav li a p
+{
+    color: aliceblue;
+}
+
+
+

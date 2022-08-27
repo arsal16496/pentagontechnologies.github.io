@@ -1,0 +1,128 @@
+<?php SESSION_start();?>
+<html>
+<!DOCTYPE html>
+<head>
+    
+    
+
+  <link rel="stylesheet" type="text/css" href="stylosignup.css.css">
+    
+    
+
+    
+    
+    
+    
+</head>
+<body>
+    
+    
+      <?php
+      
+      
+      if(isset($_SESSION['status']))
+      {
+        echo" <h4>" .$_SESSION['status']. "</h4>";
+        unset($_SESSION['status']);
+      }
+      
+      
+      
+      ?>
+      
+    
+  
+      
+    
+    
+    
+  <div id="register">  
+    
+      
+   
+      
+      
+      
+      
+      <img src="pic/user5.png" id="avatar">
+      
+     
+      
+      
+      <h1>  registration form </h1>
+       
+      <form action="signupcode.php" method="post">
+      <p> user name </p>
+          <input type="text" placeholder=" enter your username" name="username">
+      
+      <p> password</p>
+          <input type="password" placeholder=" enter your password" name="password">
+          
+          
+          <p> confirm password</p>
+          <input type="password" placeholder=" enter your confirm password" name="confirm_password">
+          
+          
+      <p> mobile number </p>
+      <input type="number" placeholder="enter your mobile number" name="mobile_number">
+
+    
+        
+        <p> date of birth 
+          
+          <input type="date"  class="form-control" name="dateofbirth" >
+            <span class="validity"></span>
+          
+          </p>
+          
+          
+          
+         
+          
+          
+    <p align="left" name="gender" > gender
+        <br><br>
+          male :<input type="radio" name="gender" value="f">
+          female : <input type="radio" name="gender" value="m">    
+          </p> 
+       
+          
+          
+          
+          
+        <input type="submit" name="save_date" value="signup">
+          
+          <br>
+          
+          <a href="login.html"> already have a account  </a>
+    
+    </form>
+    
+</div>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

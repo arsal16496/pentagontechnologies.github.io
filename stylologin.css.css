@@ -1,0 +1,162 @@
+body
+{ 
+ 
+    background-image: url(pic/beach.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+
+
+#login
+{
+   
+    background-color:black;
+    color: burlywood;
+    border: 2 groove red;
+    width: 300px;
+    height:400px;
+    position: absolute;
+    left:360;
+    bottom:100;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    font-size: 14;
+    border-radius: 15px;
+    
+}
+
+
+
+
+#avatar
+{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left:115px;
+    top:-40px;
+    border-radius: 50%;
+}
+
+
+
+#h1
+{
+    margin: 0px;
+    padding: 0px 0px 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+#login p
+
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+
+
+#login input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#login input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid floralwhite;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: floralwhite;
+    font-size: 16px;
+    
+}
+
+
+#login input[type="submit"]
+{
+    
+    background:blanchedalmond;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+
+
+
+
+#login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+
+
+
+
+
+#register input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+
+
+
+
+
+
+#login a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+    
+}
+
+
+
+
+
+#login a:hover
+{
+    color:black;
+}
+
+
+
+
+
+
+
+
+#login a:hover
+{
+    color:#ffc107;
+}

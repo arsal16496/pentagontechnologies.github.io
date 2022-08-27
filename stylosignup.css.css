@@ -1,0 +1,147 @@
+body
+{
+    display: flex;
+    background-image:  url(pic/beach.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#register 
+{
+    
+    width: 350px;
+    height: 560px;
+    background: #000;
+    color: burlywood;
+    top:55%;
+    left:50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 90px 30px;
+    border-bottom: 15;
+    border-radius: 15px;
+
+}
+
+
+
+
+#avatar
+{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+
+
+#register h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+    height: auto;
+
+   
+}
+
+
+
+#register p
+{
+   
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+
+#register input
+{
+    
+   width: 100%;
+    margin-bottom: 10px;
+    
+
+}
+
+
+#register input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 14px;
+    color: #fff;
+    font-size: 13px;
+   
+}
+
+
+
+
+
+#register input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 20px;
+    background: burlywood;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+#register input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color:#000;
+
+}
+
+
+
+
+
+
+#register a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgray;
+}
+
+
+
+
+
+#register a:hover
+{
+    color: #ffc107;
+    
+}

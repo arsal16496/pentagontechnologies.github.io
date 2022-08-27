@@ -1,0 +1,1865 @@
+ @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    
+    
+     
+    *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          
+           
+        }
+        
+        
+    
+   
+        
+        body
+        {
+           /* background-image: linear-gradient(to right , magenta, cyan);*/
+            background-image:white;
+            height: 610px;
+        }
+        
+        
+        
+        nav
+        {
+            
+            position: absolute;
+            top: -25px;
+            width: 90%;
+            height: 1020px;
+            margin: 25px auto;
+            background: #DCDCDC;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+           
+           
+        }
+    
+    
+    
+    aside
+        {
+            position: fixed;
+            width: 20%;
+            height:100%;
+            background: #000d33;
+            float: left;
+            top:0px;
+            
+            
+            
+            
+        }
+    
+        aside h1 img
+        {
+            width: 51px;
+            float: left;
+            border-radius: 50%;
+            
+        }
+        
+        
+        
+        aside h1 span
+        {
+            font-size: 30px;
+            line-height: 50px;
+            margin-left: 6px;
+            color: white;
+        }
+    
+        
+        aside ul
+        {
+            padding: 5px 0 5px 30px;
+        }
+    
+    
+    
+    
+    aside ul li
+        {
+            list-style: none;
+            font-weight: bold;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+            max-height: 35px;
+            line-height: 35px;
+            transition:1s;
+            text-transform: capitalize;
+        }
+    
+    
+    
+    
+    
+     aside ul:first-child li
+        {
+            max-height: 50px;
+        }
+    
+        
+        aside ul li:hover
+        {
+            background: #d1d1d173;
+        }
+        
+        
+    aside ul:first-child li:hover
+        {
+            background: none;
+        }
+        
+        
+        
+        
+    aside ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+    
+    
+    
+      aside ul li a i
+        {
+            width: 30px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        
+        
+        aside ul li a i.fa-angle-right
+        
+        {
+        position: absolute;
+            right: 0;
+            top: 5px;
+            transition: 0.5s;
+        }
+        
+    
+    aside ul li>ul
+        {
+            
+            padding: 1px;
+            margin: 0 0 0 20px;
+        }
+        
+        
+        aside ul li>ul li
+        {
+            height: 25px;
+            line-height: 20px;
+            font-size: 15px;
+            padding: 1px 1px 1px 20px;
+            font-weight: normal;
+            border-left: 1px solid #fff0f0;
+            margin: 5px;
+            color: #fff0f0;
+            cursor: pointer
+        }
+        
+        
+         aside ul li>ul li a,
+        aside ul li:target>ul li a
+        {
+            background: transparent;
+        }
+        
+        
+        
+         aside ul li:target
+        {
+            max-height: 300px;
+            border-radius: 5px 0px 0px 5px;
+        }
+        
+        
+         aside ul li:target a
+        {
+            color: #444;
+            display: inherit;
+            background:white;
+        }
+        
+        
+    
+    
+    
+    aside ul li:target a i.fa-angle-right
+        {
+            transform: rotate(90deg);
+            top:10px;
+            
+        }
+        
+        aside ul li:target:hover
+        {
+            background: initial;
+        }
+        
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fast 
+{
+    position: absolute;
+    top:0px;
+    width: 80%;
+    background: white;
+    height: 35px;
+    right: 0px;
+    box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    
+    
+}
+        
+.fast img
+{
+    height:  30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    bottom:1px;
+    
+}
+
+
+.fast p
+{
+    position: absolute;
+    right:12px;
+    bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen 
+{
+    position: absolute;
+    width:56%;
+    height: 500px;
+    background: white;
+     box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    left:21%;
+    top:55px
+    
+}
+
+
+
+
+
+.screen1 
+{
+    position: absolute;
+    width:20%;
+    height: 500px;
+   background: white;
+     box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    right:1%;
+    top: 55px
+    
+    
+}
+
+
+
+
+
+
+
+.screen2 
+{
+    position: absolute;
+    width:78%;
+    height: 200px;
+    background: white;
+     box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    right:1%;
+    top: 570px;
+    
+}
+
+
+
+
+.screen3 
+{
+    position: absolute;
+    width:78%;
+    height: 200px;
+    background: white;
+     box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    right:1%;
+    top: 790px;
+    
+}
+
+
+
+
+.line hr
+{
+    position: absolute;
+    width: 100%;
+    top:40px;
+}
+
+
+
+
+.saloon p
+{
+    position: absolute;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    top:10px;
+    left:10px;
+    
+    
+}
+
+
+
+
+
+
+
+
+.img1
+{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    bottom: 20px;
+    left: 12px;
+     background-image: linear-gradient(rgba(28, 34, 228, 0.8), rgba(28, 34, 228, 0.8)), url("ting1.jpg");
+          background-size: cover;  
+}
+
+.img1:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+
+ .img2
+{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    bottom: 20px;
+    left: 155px;
+    background-image: linear-gradient(rgba(21, 74, 85, 0.8), rgba(21, 74, 85, 0.8)), url("ting2.jpg");
+          background-size: cover;  
+  
+}
+
+.img2:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.img3
+{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    bottom: 20px;
+    left: 295px;
+    background-image: linear-gradient(rgba(87, 49, 207, 0.8), rgba(87, 49, 207, 0.8)), url("ting3.jpg");
+          background-size: cover;  
+}
+
+
+.img3:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.img4
+{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    bottom: 20px;
+    left: 430px;
+    background-image:linear-gradient(rgba(238, 34, 189, 0.8),rgba(238, 34, 189, 0.8)), url("ting4.jpg");
+    background-size: cover;
+   
+}
+
+
+.img4:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+.screen h2
+{
+  
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+.screen .c1
+{
+    position: absolute;
+    left:20px;
+    top:440px;
+    width:100px;
+}
+
+
+
+
+.screen .c2
+{
+    position: absolute;
+    left:160px;
+    top:440px;
+    width:100px;
+}
+
+
+
+.screen .c3
+{
+    position: absolute;
+    left:300px;
+    top:440px;
+    width:100px;
+}
+
+
+
+.screen .c4
+{
+    position: absolute;
+    left:440px;
+    top:440px;
+    width:100px;
+}
+
+
+.born p
+{
+    position: absolute;
+    color: black;
+    font-size: 17px;
+    top:70px;
+    left:222px;
+    
+}
+
+
+
+
+.born1 p
+{
+    position: absolute;
+    color: black;
+    font-size: 17px;
+    top:110px;
+    left:222px;
+    
+}
+
+
+
+
+.born1 p1
+{
+    position: absolute;
+    color: #d9d9d9;
+    font-size: 13px;
+    top:160px;
+    left:242px;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.born1 .haha
+{
+     position: absolute;
+    color: black;
+    font-size: 17px;
+    top:150px;
+    left:222px;
+    width: 540px;
+    height: 250px;
+    background:white;
+    border: .5px solid #D3D3D3;
+    
+   
+}
+
+
+
+
+
+
+.born1 h3
+{
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    top:190px;
+    left:232px;
+    
+}
+
+
+
+.born1 input
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+     top:220px;
+    left:232px;
+    
+    
+    
+}
+
+
+.born1 button
+{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    display: block;
+     top:370px;
+    left:232px;
+    color: aqua;
+    border: 1px solid aqua;
+    
+    
+}
+
+.born1 button a
+{
+    text-decoration: none;
+}
+
+
+
+.born1 h4
+{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    top:200px;
+    left:262px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen2 img
+{
+    position: absolute;
+    width:30px;
+    height:30px;
+}
+
+
+.screen2 img:hover
+{
+    transform: scale(1.2);
+}
+
+
+
+
+.screen2 p3
+{
+    
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.screen2 p3:hover
+{
+    transform: scale(1.02);
+}
+
+
+
+
+ .screen2 .p31
+{
+    position: absolute;
+    top:70px;
+    left:52px;
+}
+
+
+.screen2 .img11
+{
+    position: absolute;
+    top:60px;
+    left:9px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.1), rgba(231, 159, 196, 0.1)), url("c2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen2 .p32
+{
+    position: absolute;
+    top:70px;
+    left:242px;
+}
+
+
+.screen2 .img12
+{
+    position: absolute;
+    top:60px;
+    left:200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+ .screen2 .p33
+{
+    position: absolute;
+    top:70px;
+    left:452px;
+}
+
+
+
+.screen2 .img13
+{
+    position: absolute;
+    top:60px;
+    left:410px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen2 .p34
+{
+    position: absolute;
+    top:70px;
+    left:652px;
+}
+
+
+
+
+.screen2 .img14
+{
+    position: absolute;
+    top:60px;
+    left:610px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen2 .p35
+{
+    position: absolute;
+    top:150px;
+    left:652px;
+   
+}
+
+
+
+.screen2 .img15
+{
+    position: absolute;
+    top:140px;
+    left:610px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen2 .p36
+{
+    position: absolute;
+    top:150px;
+    left:452px;
+    
+}
+
+
+
+.screen2 .img16
+{
+    position: absolute;
+    top:140px;
+    left:410px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen2 .p37
+{
+    position: absolute;
+    top:150px;
+    left:245px;
+
+}
+
+
+.screen2 .img17
+{
+    position: absolute;
+    top:140px;
+    left:200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+ .screen2 .p38
+{
+    position: absolute;
+    top:150px;
+    left:55px;
+  
+}
+
+
+
+
+
+.screen2 .img18
+{
+    position: absolute;
+    top:140px;
+    left:10px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(231, 159, 196, 0.2), rgba(231, 159, 196, 0.2)), url("c3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen3 img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.screen3 img:hover
+{
+    transform: scale(1.2);
+}
+
+
+
+.screen3 p3
+{
+    
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.screen3 p3:hover
+{
+    transform: scale(1.02);
+}
+
+
+
+ .screen3 .p31
+{
+    position: absolute;
+    top:70px;
+    left:52px;
+}
+
+
+
+.screen3 .img11
+{
+    position: absolute;
+    top:60px;
+    left:9px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p32
+{
+    position: absolute;
+    top:70px;
+    left:242px;
+}
+
+
+.screen3 .img12
+{
+    position: absolute;
+    top:60px;
+    left:210px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p33
+{
+    position: absolute;
+    top:70px;
+    left:452px;
+}
+
+
+
+.screen3 .img13
+{
+    position: absolute;
+    top:60px;
+    left:410px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p34
+{
+    position: absolute;
+    top:70px;
+    left:652px;
+}
+
+
+.screen3 .img14
+{
+    position: absolute;
+    top:60px;
+    left:610px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen3 .p35
+{
+    position: absolute;
+    top:150px;
+    left:652px;
+   
+}
+
+
+.screen3 .img15
+{
+    position: absolute;
+    top:140px;
+    left:610px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p36
+{
+    position: absolute;
+    top:150px;
+    left:452px;
+    
+}
+
+
+.screen3 .img16
+{
+    position: absolute;
+    top:140px;
+    left:410px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p37
+{
+    position: absolute;
+    top:150px;
+    left:245px;
+
+}
+
+.screen3 .img17
+{
+    position: absolute;
+    top:140px;
+    left:210px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .screen3 .p38
+{
+    position: absolute;
+    top:150px;
+    left:55px;
+  
+}
+
+.screen3 .img18
+{
+    position: absolute;
+    top:140px;
+    left:10px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(41, 39, 245, 0.3), rgba(41, 39, 245, 0.3)), url("r8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 h1
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.screen1 h2
+{
+    font-size: 10px;
+    color: darkgrey;
+}
+
+.screen1 img
+{
+    
+    width: 22px;
+    height: 22px;
+}
+
+
+
+
+.screen1 .h11
+{
+    position: absolute;
+    top:50px;
+    left:40px;
+}
+
+
+.screen1 .h21
+{
+    position: absolute;
+    top: 65px;
+    left: 40px;
+}
+
+
+.screen1 .img1
+{
+    position: absolute;
+    top:52px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h12
+{
+    position: absolute;
+    top:85px;
+    left:40px;
+}
+
+
+.screen1 .h22
+{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+
+.screen1 .img2
+{
+    position: absolute;
+    top:87px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h13
+{
+    position: absolute;
+    top:125px;
+    left:40px;
+}
+
+
+.screen1 .h23
+{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+
+.screen1 .img3
+{
+    position: absolute;
+    top:127px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h14
+{
+    position: absolute;
+    top:190px;
+    left:40px;
+}
+
+
+.screen1 .h24
+{
+    position: absolute;
+    top: 225px;
+    left: 40px;
+}
+
+
+.screen1 .img4
+{
+    position: absolute;
+    top:192px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h15
+{   
+    position: absolute;
+    top:240px;
+    left:40px;
+}
+
+
+.screen1 .h25
+{
+    position: absolute;
+    top: 255px;
+    left: 40px;
+}
+
+
+.screen1 .img5
+{
+    position: absolute;
+    top:242px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h16
+{   
+    position: absolute;
+    top:280px;
+    left:40px;
+}
+
+
+.screen1 .h26
+{
+    position: absolute;
+    top: 325px;
+    left: 40px;
+}
+
+
+.screen1 .img6
+{
+    position: absolute;
+    top:282px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.screen1 .h17
+{   
+    position: absolute;
+    top:340px;
+    left:40px;
+}
+
+
+.screen1 .h27
+{
+    position: absolute;
+    top: 355px;
+    left: 40px;
+}
+
+
+.screen1 .img7
+{
+    position: absolute;
+    top:342px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h18
+{   
+    position: absolute;
+    top:380px;
+    left:40px;
+}
+
+
+.screen1 .h28
+{
+    position: absolute;
+    top: 430px;
+    left: 40px;
+}
+
+
+.screen1 .img8
+{
+    position: absolute;
+    top:382px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.screen1 .h19
+{   
+    position: absolute;
+    top:455px;
+    left:40px;
+}
+
+
+.screen1 .h29
+{
+    position: absolute;
+    top: 485px;
+    left: 40px;
+}
+
+
+.screen1 .img9
+{
+    position: absolute;
+    top:457px;
+    left: 10px;
+}
+
+
+
+.screen1 img:hover
+{
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+

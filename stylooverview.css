@@ -1,0 +1,907 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    
+    
+     
+    *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          
+           
+        }
+        
+        
+    
+   
+        
+        body
+        {
+           background-image: white;
+           height: 610px;
+           width: 100%;
+            
+        }
+        
+        
+        
+        nav
+        {
+            
+            position: absolute;
+            top: -25px;
+            height: 1050px;
+            margin: 25px auto;
+            background: #DCDCDC;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+           
+           
+        }
+    
+    
+    
+    aside
+        {
+            position: fixed;
+            width: 20%;
+            height:100%;
+            background: white;
+            float: left;
+            top:0px;
+            
+            
+            
+            
+        }
+    
+        aside h1 img
+        {
+            width: 20px;
+            height: 20px;
+            float: left;
+            border-radius: 50%;
+            top: 8px;
+            position: relative;
+            
+        }
+        
+        
+        
+        aside h1 span
+        {
+            font-size: 18px;
+            line-height: 10px;
+            margin-left: 6px;
+            color: violet;
+            
+            
+        }
+    
+        
+        aside ul
+        {
+            padding: 5px 0 5px 30px;
+        }
+    
+    
+    
+    
+    aside ul li
+        {
+            list-style: none;
+            font-weight: bold;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+            max-height: 35px;
+            line-height: 35px;
+            transition:1s;
+            text-transform: capitalize;
+        }
+    
+    
+    
+    
+    
+     aside ul:first-child li
+        {
+            max-height: 50px;
+        }
+    
+        
+        aside ul li:hover
+        {
+            background: #d1d1d173;
+        }
+        
+        
+    aside ul:first-child li:hover
+        {
+            background: none;
+        }
+        
+        
+        
+        
+    aside ul li a
+        {
+            text-decoration: none;
+            color:black;
+        }
+    
+    
+    
+      aside ul li a i
+        {
+            width: 30px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        
+        
+        aside ul li a i.fa-angle-right
+        
+        {
+        position: absolute;
+            right: 0;
+            top: 5px;
+            transition: 0.5s;
+        }
+        
+    
+    aside ul li>ul
+        {
+            
+            padding: 1px;
+            margin: 0 0 0 20px;
+        }
+        
+        
+        aside ul li>ul li
+        {
+            height: 25px;
+            line-height: 20px;
+            font-size: 15px;
+            padding: 1px 1px 1px 20px;
+            font-weight: normal;
+            border-left: 1px solid #fff0f0;
+            margin: 5px;
+            color: #fff0f0;
+            cursor: pointer
+        }
+        
+        
+         aside ul li>ul li a,
+        aside ul li:target>ul li a
+        {
+            background: transparent;
+        }
+        
+        
+        
+         aside ul li:target
+        {
+            max-height: 300px;
+            border-radius: 5px 0px 0px 5px;
+        }
+        
+        
+         aside ul li:target a
+        {
+            color: #444;
+            display: inherit;
+            background:white;
+        }
+        
+        
+    
+    
+    
+    aside ul li:target a i.fa-angle-right
+        {
+            transform: rotate(90deg);
+            top:10px;
+            
+        }
+        
+        aside ul li:target:hover
+        {
+            background: initial;
+        }
+        
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fast 
+{
+    position: absolute;
+    top:0px;
+    width: 80%;
+    background: white;
+    height: 35px;
+    right: 0px;
+    box-shadow: 0px 2px 10px rgba(71,71,71,0.52);
+    
+    
+}
+        
+.fast img
+{
+    height:  20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    bottom:7px;
+    
+}
+
+
+.fast p
+{
+    position: absolute;
+    right:38px;
+    bottom: 8px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+.inco
+{
+    position: relative;
+    top: 33px;
+    left: 20%;
+  background-image: linear-gradient(to right top, #191ad4, #3d23c8, #4e2bbc, #5a34b1, #623ca6);
+    width: 80%;
+    height: 130px;
+}
+
+
+
+
+
+.inco .been
+{
+    position: relative;
+    top: 86px;
+    left:2%;
+    background: white;
+    width: 25%;
+    height: 120px;
+ -webkit-box-shadow: -12px 17px 24px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 17px 24px -12px rgba(0,0,0,0.75);
+box-shadow: -12px 17px 24px -12px rgba(0,0,0,0.75);
+
+}
+
+
+
+
+
+
+
+
+
+.inco .semi
+{
+    position: relative;
+    top: -35px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 135px;
+}
+
+
+
+
+
+.inco .semi1
+{
+    position: relative;
+    top: -23px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 180px;
+}
+
+
+
+
+.inco .semi2
+{
+    position: relative;
+    top: -10px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 230px;
+}
+
+
+
+
+.inco .semi3
+{
+    position: relative;
+    top: 4px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 100px;
+}
+
+
+
+
+
+.inco .semi4
+{
+    position: relative;
+    top: 21px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+.inco .semi5
+{
+    position: relative;
+    top: 40px;
+    left:29%;
+    background: white;
+    width: 70%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inco .been h1
+{
+    font-size: 13px;
+    color: navy;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+
+.inco .been img
+{
+    position:absolute;
+    width: 17px;
+    height: 17px;
+    left: 20px;
+    top:19px;
+}
+
+.inco .been .img2
+{
+     position:absolute;
+    width: 16px;
+    height: 16px;
+    left: 20px;
+    top:49px;
+}
+
+
+
+.inco .been .img3
+{
+     position:absolute;
+    width: 16px;
+    height: 16px;
+    left: 20px;
+    top:83px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inco h1
+{
+    font-size: 13px;
+    color:dimgray;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+.inco hr
+{
+    position: relative;
+    top: 15px;
+    border: .5px solid 	#DCDCDC;
+    
+}
+
+
+
+
+
+
+.inco .been p
+{
+    left: 55px;
+     font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+
+
+
+.inco p
+{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    font-size: 11px;
+    height: 35px;
+    width: 500px;
+    line-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.inco .semi p1
+{
+    position: relative;
+    top:-37px;
+    left: 280px;
+    font-size: 11px;
+    height: 20px;
+    width: 500px;
+    line-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+.inco .semi p
+{
+    height: 20px;
+     font-family: sans-serif;
+     font-size: 11px;
+}
+
+
+.inco .semi1 p1
+{
+    position: relative;
+    top:-95px;
+    left: 280px;
+    font-size: 11px;
+    height: 20px;
+    width: 500px;
+    line-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+.inco .semi1 p
+{
+    height: 20px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+     font-size: 11px;
+
+}
+
+
+
+.inco .semi2 p1
+{
+    position: relative;
+    top:-130px;
+    left: 280px;
+    font-size: 11px;
+    height: 20px;
+    width: 500px;
+    line-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+.inco .semi2 p
+{
+   height: 18px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+     font-size: 11px;
+}
+
+
+
+.inco button
+{
+    position: relative;
+    top: 40px;
+    left: 25px;
+    width:120px;
+    height: 25px;
+    font-size: 11px;
+    text-transform: capitalize;
+    background: black;
+    color: aliceblue;
+    border: 0px;
+     font-family: sans-serif;
+    border-radius: 7%;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.inco .semi h2
+{
+    position: relative;
+    top: 12px;
+    left: 150px;
+    font-size: 11px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+
+.inco .semi h3
+{
+    position: relative;
+    top: -58px;
+    left: 390px;
+    font-size: 11px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.inco .semi1 h2
+{
+    position: relative;
+    top: 12px;
+    left: 150px;
+    font-size: 11px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+
+.inco .semi1 h3
+{
+    position: relative;
+    top: -118px;
+    left: 390px;
+    font-size: 11px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.inco .semi2 h2
+{
+    position: relative;
+    top: 12px;
+    left: 150px;
+    font-size: 11px;
+    height: 15px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+
+.inco .semi2 h3
+{
+    position: relative;
+    top: -154px;
+    left: 390px;
+    font-size: 11px;
+    height: 12px;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.inco .imi img
+{
+    position: absolute;
+    top:13px;
+    left: 17px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding:3px;
+    margin: 1px;
+    color: aliceblue;
+    background: white;
+}
+
+
+
+
+.inco .chimb img
+{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+.inco h4
+{
+    position: absolute;
+    top:20px;
+    left: 70px;
+    font-size: 14px;
+    color: aliceblue;
+    text-transform: capitalize;
+     font-family: sans-serif;
+}
+
+
+
+
+
+.inco h5
+{
+    position: absolute;
+    top:40px;
+    left: 70px;
+    font-size: 9px;
+   color: aliceblue;
+    font-family: sans-serif;
+}
+
+
+
+.chimb img
+{
+    position: absolute;
+    top: 30px;
+    width: 25px;
+    height: 25px;
+    left: 750px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inco .semi img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+
+
+
+
+.inco .semi1 img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+.inco .semi2 img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+
+
+
+
+
+.inco .semi3 img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+.inco .semi3 button:hover
+{
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+.inco .semi4 img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+
+.inco .semi4 button:hover
+{
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.inco .semi5 img
+{
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+
+.inco .semi5 button:hover
+{
+    z-index: 1;
+    transform: scale(1.1);
+}
