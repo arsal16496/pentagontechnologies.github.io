@@ -82,7 +82,7 @@ body {
     position:relative;
     width: 100%;
     height: 40vw;
-    top: -1340px;
+    top: -204vh;
     left:0px;
     background-size: cover;
 }
@@ -549,17 +549,21 @@ body {
 .footer .foot_1 h1
 {
      text-transform: uppercase;
+    position: relative;
+    bottom: -51%;
+    color: aliceblue;
+    
 }
 
 
 .footer .foot_2
 {
     position: absolute;
-    bottom:45%;
+    bottom: 44%;
     width: 5vw;
     height:2vw;
     text-align: left;
-    width: 23vw;
+    width: 22vw;
     left: 5%;
     color: darkgrey;
     font-size: 1.5vw;
@@ -568,9 +572,12 @@ body {
 
 .footer .foot_2 h1
 {
+    
     color: aliceblue;
     text-transform: uppercase;
     font-size: 3vw;
+    position: absolute;
+    bottom: 47%;
 }
 
 
@@ -580,12 +587,80 @@ body {
 {
     text-decoration: none;
     color: aliceblue;
-    line-height: 2.2;
+    line-height: 2;
     color: darkgrey;
+    
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.footer .foot_3
+{
+    position: absolute;
+    bottom:46%;
+    width: 17vw;
+    height:2vw;
+    text-align: left;
+    left: 65%;
+    color: darkgrey;
+    font-size: 1.5vw;
+}
+
+
+.footer .foot_3 h1
+{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 3vw;
+    width: 50vw;
+    bottom: 47%;
+}
+
+.footer .foot_3 li
+{
+    width: 28vw; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer .foot_3
+{
+    line-height: 1.5;
+   bottom:15%; 
+}
 
 
 
@@ -594,11 +669,15 @@ body {
 {
    position: absolute;
     left:65%;
-    bottom:33%;
-    width: 25vw;
- color: darkgrey;
-   font-size: 1.5vw;
+    width: 26vw;
+    color: darkgrey;
+    font-size: 1.5vw;
+    height: 40vh;
+    line-height: 1.5;
 }
+
+
+
 
 
 
@@ -613,6 +692,37 @@ body {
     text-transform: uppercase;
     font-size: 3vw;
 }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
