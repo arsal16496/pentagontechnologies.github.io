@@ -16,6 +16,7 @@
 body
 {
     font-family: montserrat;
+    width: 100%;
 }
 
 
@@ -26,6 +27,7 @@ nav
     height: 80px;
     width: 100%;
     position:absolute;
+    top: 0px;
 }
 
 
@@ -33,9 +35,9 @@ nav
 label.logo
 {
     color: aliceblue;
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 50px;
+    font-size: 2em;
+    line-height: 7vw;
+    padding: 0 5vw;
     font-weight: bold;
 }
 
@@ -45,7 +47,7 @@ label.logo
 nav ul
 {
     float: right;
-    margin-right: 20px;
+    margin-right: 4.5vw;
 }
 
 
@@ -63,9 +65,9 @@ nav ul li
 nav ul li a
 {
     color: aliceblue;
-    font-size: 13px;
+    font-size: 1.4vw;
     text-transform: uppercase;
-    padding: 8px 10px;
+    padding: 4px 5px;
     border-radius: 3px;
     
 }
@@ -81,11 +83,11 @@ a.active,a:hover
 
 .checkbtn
 {
-    font-size: 30px;
+    font-size: 6vw;
     color: aliceblue;
     float: right;
-    line-height: 80px;
-    margin-right: 40px;
+    line-height: 4vw;
+    margin-right:7vw ;
     cursor: pointer;
     display: none;
    
@@ -99,7 +101,7 @@ a.active,a:hover
     @media (max-width: 952px){
         
         label.logo{
-     font-size:30px;
+     font-size:3vw;
      padding-left:40px;
 }
 
@@ -107,7 +109,7 @@ a.active,a:hover
 
 nav ul li a
 {
- font-size: 20px;   
+ font-size: 3vw;   
 }
         
 
@@ -167,9 +169,6 @@ section
     background-size:cover;
     height: calc(100vh-80px);
 }
-
-
-
 
 
 
@@ -354,9 +353,6 @@ nav ul li:hover .sub-menu-1 ul li a:hover
 
 
 
- 
-
-
 
 
 
@@ -372,9 +368,11 @@ nav ul li:hover .sub-menu-1 ul li a:hover
         {
             background-repeat: no-repeat;
             width:100%;
-            height: 100vh;
+            height: 60vw;
              background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("pic/mouse.jpg");
             background-size: cover;
+            position: relative;
+            top: -26vw;
         }
         
         
@@ -382,10 +380,10 @@ nav ul li:hover .sub-menu-1 ul li a:hover
         #particles-js h1
         {
             position: absolute;
-            left: -280px;
-            top: 320px;
+            left: -20%;
+            top: 23%;
             transform: translate(50%, 50%);
-            font-size: 80px;
+            font-size: 6vw;
             color: ghostwhite;
             
         }
@@ -401,134 +399,6 @@ nav ul li:hover .sub-menu-1 ul li a:hover
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-             
-    #text1 
-         {
-             color:floralwhite;
-             font-weight: bold;
-             border: 1px groove black ;
-             width: 150px;
-             height: 250px;
-             position:absolute;
-             left:60px;
-             bottom: -300px;
-             background-image: url(pic/black2.jpeg);
-             background-size: 150px 250px;
-             border-radius: 10%;
-             
-         }
-             
-             
-    #text1 a
-         {
-         
-             text-decoration: none;
-             font-family: sans-serif;
-             color: silver;
-             
-         }
-
-   #text1 p
-        {
-         position: absolute;
-         left: 30px;
-         bottom: 100px;
-         font-size:25px;
-
-        }
-
-
-
-
-
-       #text1:hover
-         {
-          
-              z-index: 1;
-             transform:scale(1.1);
-             box-shadow: 0 25px 40px rgba(0,0,0,.5);
-             
-        }
-         
-             
-         
-         
-         
-         
-         
-         
-        
-         
-         
-         
-      
-             
-    #text2 
-         {
-             color:floralwhite;
-             font-weight: bold;
-             border: 1px groove black ;
-             width: 150px;
-             height: 250px;
-             position:absolute;
-             left:300px;
-             bottom: -300px;
-             background-image: url(pic/black2.jpeg);
-             background-size: 150px 250px;
-             border-radius: 10%;
-             
-         }
-             
-             
-    #text2 a
-         {
-         
-             text-decoration: none;
-             font-family: sans-serif;
-             color: silver;
-             
-         }
-
-   #text2 p
-        {
-         position: absolute;
-         left: 30px;
-         bottom:  100px;
-         font-size:25px;
-
-        }
-
-
-
-
-
-       #text2:hover
-         {
-          
-              z-index: 1;
-             transform:scale(1.1);
-             box-shadow: 0 25px 40px rgba(0,0,0,.5);
-             
-        }
-         
-             
-         
-         
-         
          
          
          
@@ -537,128 +407,93 @@ nav ul li:hover .sub-menu-1 ul li a:hover
          
          
              
-    #text3
-         {
-             color:floralwhite;
-             font-weight: bold;
-             border: 1px groove black ;
-             width: 150px;
-             height:  250px;
-             position:absolute;
-             left:560px;
-             bottom:-300px;
-             background-image: url(pic/black2.jpeg);
-             background-size: 150px 250px;
-             border-radius: 10%;
-             
-         }
-             
-             
-    #text3 a
-         {
-         
-             text-decoration: none;
-             font-family: sans-serif;
-             color: silver;
-             
-         }
-
-   #text3 p
-        {
-         position: absolute;
-         left: 30px;
-         bottom:  100px;
-         font-size:25px;
-
-        }
 
 
 
 
 
-       #text3:hover
-         {
-          
-              z-index: 1;
-             transform:scale(1.1);
-             box-shadow: 0 25px 40px rgba(0,0,0,.5);
-             
-        }
-         
-             
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-   
-             
-    #text4 
-         {
-             color:floralwhite;
-             font-weight: bold;
-             border: 1px groove black ;
-             width: 150px;
-             height: 250px;
-             position:absolute;
-             left:800px;
-             bottom: -300px;
-             background-image: url(pic/black2.jpeg);
-             background-size: 150px 250px;
-             border-radius: 10%;
-             
-         }
-             
-             
-    #text4 a
-         {
-         
-             text-decoration: none;
-             font-family: sans-serif;
-             color: silver;
-             
-         }
-
-   #text4 p
-        {
-         position: absolute;
-         left: 30px;
-         bottom: 100px;
-         font-size:25px;
-
-        }
 
 
 
 
 
-       #text4:hover
-         {
-         
-              z-index: 1;
-             transform:scale(1.1);
-             box-shadow: 0 25px 40px rgba(0,0,0,.5);
-             
-             
-}
-         
-             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -689,10 +524,10 @@ label a
             position: absolute;
             background-repeat: no-repeat;
             width:100%;
-            height: 80vh;
+            height: 50vw;
             background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("pic/scene.jpg");
             background-size: cover;
-            bottom:-1800px;
+           top:200vw;
         }
         
 
@@ -700,10 +535,10 @@ label a
  #particles-jb h1
 {
     position: absolute;
-    top:50%;
+    top:45%;
     bottom: 50%;
-    left: 150px;
-    font-size: 50px;
+    left: 15%;
+    font-size: 5vw;
     color: aliceblue;
     width:900px;
     text-transform: uppercase;
@@ -713,14 +548,15 @@ label a
 #particles-jb button
 {
     position: absolute;
-    width:200px;
-    height:50px;
+    width:18vw;
+    height:4vw;
     background:white;
-    left: 400px;
-    bottom:100px;
+    left: 41%;
+    bottom:13%;
     font-weight: 500;
     color: black;
     font-weight: bold;
+    font-size: 1.5vw;
     
    
 }
@@ -743,9 +579,9 @@ label a
 {
     
     position: absolute;
-    top:170px;
-    left: 280px;
-    font-size: 20px;
+    top:27%;
+    left: 25%;
+    font-size: 1.7vw;
     color: aliceblue;
     width:900px;
     text-transform: lowercase;
@@ -773,10 +609,10 @@ label a
 .image1 img
 {
     position: absolute;
-    width: 300px;
-    height: 250px;
-    left:80px;
-    bottom:-700px;
+    width: 30vw;
+    height: 25vw;
+    left:8%;
+    top:107vw;
 }
 
 .image1 img:hover
@@ -792,10 +628,10 @@ label a
 .image2 img
 {
     position: absolute;
-    width: 300px;
-    height: 250px;
-    left:600px;
-    bottom:-700px;
+     width: 30vw;
+    height: 25vw;
+    left:58%;
+  top:107vw;
 }
 
 
@@ -820,10 +656,10 @@ label a
 .image3 img
 {
     position: absolute;
-    width: 300px;
-    height: 250px;
-    left:80px;
-    bottom:-1150px;
+   width: 30vw;
+    height: 25vw;
+    left:8%;
+   top:152vw ;
 }
 
 .image3 img:hover
@@ -843,10 +679,10 @@ label a
 .image4 img
 {
     position: absolute;
-    width: 300px;
-    height: 250px;
-    left:600px;
-    bottom:-1150px;
+     width: 30vw;
+    height: 25vw;
+    left:58%;
+   top:152vw;
 }
 
 
@@ -876,11 +712,11 @@ label a
 .sigma1 P
 {
     position: absolute;
-    bottom:-800px;
-    left: 80px;
-    font-size:  30px;
+   top:138vw;
+    left:8%;
+    font-size:  3vw;
     color: black;
-    width:900px;
+    width:50vw;
     text-transform: uppercase;
     font-family: sans-serif;
 
@@ -890,14 +726,17 @@ label a
 
 
 
+
+
+
 .sigma2 P
 {
     position: absolute;
-    bottom:-800px;
-    left: 630px;
-    font-size: 30px;
+    top:138vw;
+    left:60%;
+    font-size:  3vw;
     color: black;
-    width:900px;
+     width:50vw;
     text-transform: uppercase;
      font-family: sans-serif;
   
@@ -912,11 +751,11 @@ label a
 .sigma3 P
 {
     position: absolute;
-    bottom:-1250px;
-    left: 50px;
-    font-size:  30px;
+   top:182vw;
+     left:6%;
+   font-size:  3vw;
     color: black;
-    width:900px;
+    width:50vw;
     text-transform: uppercase;
      font-family: sans-serif;
  
@@ -931,11 +770,11 @@ label a
 .sigma4 P
 {
     position: absolute;
-    bottom:-1250px;
-    left: 600px;
-    font-size: 30px;
+    top:182vw;
+     left:60%;
+    font-size:  3vw;
     color: black;
-    width:900px;
+   width:50vw;
     text-transform: uppercase;
      font-family: sans-serif;
     
@@ -971,6 +810,144 @@ label a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins' , sans-serif;
+    text-transform: none;
+    transition: all 0.3 linear;
+    
+}
 
 
 
@@ -990,8 +967,8 @@ label a
     align-items: center;
     background-color: #fff;
     background-image: linear-gradient(90deg, #fff 0% , #alicewhite 100% );
-    position: absolute;
-    bottom: -2500px;
+    position:relative;
+    top: 180vw;
 }
 
 
@@ -1001,11 +978,11 @@ label a
 
 .box
 {
-    width: 260px;
-    height: 455px;
+    width: 16em;
+    height: 28em;
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     padding-top: 80px;
     margin: 20px;
     text-align: center;
@@ -1021,7 +998,7 @@ label a
 
 .box h3
 {
-    font-size: 35px;
+    font-size: 2em;
     padding: 20px 0;
     color: #444;
     
@@ -1034,7 +1011,7 @@ label a
 
 .box p
 {
-    font-size: 15px;
+    font-size: 1em;
     color: #777;
 }
 
@@ -1049,7 +1026,7 @@ label a
     color: #fff;
     border: none;
     outline: none;
-    font-size: 17px;
+    font-size: 1em;
     cursor: pointer;
     border-radius: 50px;
     margin-top: 40px;
@@ -1185,36 +1162,13 @@ label a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer
 {
     background-color: black;
-    width:1080px;
-    height:800px;
-    position: absolute;
-    bottom: -3500px;
+    width:100%;
+    height:100vw;
+    position:relative;
+    bottom:-200vw;
     
 }
 
@@ -1224,25 +1178,13 @@ label a
 .footer .foot_1 
 {
     position: relative;
-    left: 370px;
-    bottom: -150px;
-    width: 250px;
-    color: snow;
-     line-height: 1;
-   
+    left: 35%;
+  bottom:-8%;
+   width: 23vw;
+    color: white;
+   font-size: 1.5vw;
 }
 
-
-.footer .foot_1 li
-{
-    position: relative;
-    left:5px;
-    bottom:70px;
-    width: 250px;
-    color: darkgrey;
-    line-height: 1.5;
-   
-}
 
 
 .footer .foot_1 li:hover
@@ -1254,36 +1196,38 @@ label a
 
 
 
-
-
 .footer .foot_1 h1
 {
      text-transform: uppercase;
-     color: aliceblue;
-    position: absolute;
-    left:-15px;
-    bottom:290px;
+    position: relative;
+    bottom: -51%;
+    color: aliceblue;
+    
 }
 
 
 .footer .foot_2
 {
-    position: relative;
-    bottom:180px;
-    width: 280px;
-    height:20px;
+    position: absolute;
+    bottom:86%;
+    width: 10vw;
+    height:2vw;
     text-align: left;
-    width: 250px;
-    left: 55px;
+    width: 22vw;
+    left: 5%;
     color: darkgrey;
-     line-height: 1.5;
+    font-size: 1.5vw;
 }
 
 
 .footer .foot_2 h1
 {
+    
     color: aliceblue;
     text-transform: uppercase;
+    font-size: 3vw;
+    position: absolute;
+    bottom: 47%;
 }
 
 
@@ -1292,37 +1236,99 @@ label a
 .footer .foot_1 a
 {
     text-decoration: none;
-    color: snow;
-    line-height: 2.2;
+    color: aliceblue;
+    line-height: 2;
     color: darkgrey;
+    
 }
 
 
 
 
-.footer .foot_3 li
+
+
+
+
+
+
+
+
+
+
+.footer .foot_3
 {
-   position: relative;
-    left:650px;
-    bottom:170px;
-    width: 270px;
+    position: absolute;
+    bottom:89%;
+    width: 30vw;
+    height:2vw;
+    text-align: left;
+    left: 65%;
     color: darkgrey;
-    line-height: 1.5;
-   
+    font-size: 1.5vw;
 }
-
-
 
 
 .footer .foot_3 h1
 {
-    width: 400px;
-    position: relative;
-    left:640px;
-    bottom:195px;
     color: aliceblue;
     text-transform: uppercase;
+    font-size: 3vw;
+    width: 50vw;
+    bottom: 47%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1335,12 +1341,13 @@ label a
 
 .footer .seen p
 {
-    position: relative;
-    bottom:70px;
+    position: absolute;
+    bottom:48%;
     color:grey;
-    width: 650px;
-    left:180px;
+    width: 61vw;
+    left:20%;
     text-transform: uppercase;
+    font-size:1.6vw;
 }
 
 
@@ -1350,18 +1357,15 @@ label a
 
 
 
-
-
-
-
-.footer .seen1 p
+.footer .seen5 p
 {
-    position: relative;
-    bottom:40px;
+    position:absolute;
+    bottom:2%;
     color:grey;
-    width: 650px;
-    left:380px;
-    text-transform: lowercase;
+    width: 50%;
+    left:35%;
+    text-transform: uppercase;
+    font-size: 1.5vw;
 }
 
 
@@ -1387,50 +1391,70 @@ label a
 
 
 
-.socail-menu ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socail-menu .big
 {
     position: absolute;
-    bottom: 120px;
-    left:50%;
-    padding: 0;
-    margin: 0;
-    transform: translate(-50%,-50%);
+    bottom: 15%;
+    left:40%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-15px,-15px);
     display: flex;
+   
+    
     
 }
 
 
-.socail-menu ul li
+.socail-menu .big p50
 {
     list-style: none;
     margin: 0 15px;
+     
     
 }
 
 
-.socail-menu ul li .fa
+.socail-menu .big p50 .fa
 {
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 3vw;
+    line-height: 7vw;
     transition: .6s;
     color: #000;
     
 }
 
 
-.socail-menu ul li .fa:hover
+.socail-menu .big p50 .fa:hover
 {
     background-color: #fff;
 }
 
 
 
-.socail-menu ul li a
+.socail-menu .big p50 a
 {
     position: relative;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
     background-color: #fff;
     transition: .6s;
@@ -1439,7 +1463,7 @@ label a
 
 
 
-.socail-menu ul li a:hover
+.socail-menu .big p50 a:hover
 {
     transform: translate(0, -10px);
 }
@@ -1448,7 +1472,7 @@ label a
 
 
 
-.socail-menu ul li:nth-child(1) a:hover
+.socail-menu .big p50:nth-child(1) a:hover
 {
     background-color: #3b5999;
 }
@@ -1456,9 +1480,9 @@ label a
 
 
 
-.socail-menu ul li:nth-child(2) a:hover
+.socail-menu .big p50:nth-child(2) a:hover
 {
-    background-color:  lawngreen;
+    background-color:greenyellow;
 }
 
 
@@ -1469,7 +1493,7 @@ label a
 
 
 
-.socail-menu ul li:nth-child(3) a:hover
+.socail-menu ul p50:nth-child(3) a:hover
 {
     background-color: #007785;
 }
@@ -1491,14 +1515,107 @@ label a
 
 
 
-.footer .seen5 p
+#texi
 {
-    position: relative;
-    bottom:-240px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+     height: 200vh;
+    
+    
+}
+
+
+
+
+
+
+
+         
+             
+#texi #text1 
+         {
+             color:floralwhite;
+             font-weight: bold;
+             border: 1px groove black ;
+             width:15vw;
+             height:25vw;
+             position: relative;
+             left:6%;
+             top: 70vw;
+             background-image: url(pic/black2.jpeg);
+             background-size: 150px 250px;
+             border-radius: 10%;
+             letter-spacing: 1px;
+             padding: 1vw;
+             margin: 4vw;
+             
+             
+              
+             
+            
+             
+         }
+             
+             
+#texi #text1 a
+         {
+         
+             text-decoration: none;
+             font-family: sans-serif;
+             color: aliceblue;
+             
+         }
+
+#texi #text1  p
+        {
+         position: absolute;
+         left: 20%;
+         bottom: 40%;
+         font-size:2.5vw;
+
+        }
+
+
+
+
+
+ #texi #text1:hover
+         {
+          
+              z-index: 1;
+             transform:scale(1.1);
+             box-shadow: 0 25px 40px rgba(0,0,0,.5);
+             
+        }
+         
+             
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .seen1 p
+{
+    position: absolute;
+    bottom:40%;
     color:grey;
-    width: 610px;
-    left:360px;
-    text-transform: uppercase;
+    width: 40%;
+    left:32%;
+    text-transform: lowercase;
+    font-size: 1.5vw;
+    
 }
 
 
@@ -1523,6 +1640,76 @@ label a
 
 
 
+
+
+
+
+      
+   
+         
+
+
+
+
+
+         
+    
+         
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 
 
