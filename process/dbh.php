@@ -1,9 +1,9 @@
 <?php
 
 $servername = "main";
-$dBUsername = "root";
+$dBUsername = "arsal16496";
 $dbPassword = "";
-$dBName = "database_customer";
+$dBName = "database_admin";
 
 $conn = mysqli_connect($servername, $dBUsername, $dbPassword, $dBName);
 
