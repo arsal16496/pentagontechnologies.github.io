@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$con = mysqli_connect("localhost" , "root" , "" , "sir");
+$con = mysqli_connect("main" , "arsal16496" , "" , "sir");
 
 
 
