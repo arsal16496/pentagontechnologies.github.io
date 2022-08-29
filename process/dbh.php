@@ -1,7 +1,7 @@
 <?php
 
 $servername = "main";
-$dBUsername = "arsal16496";
+$dBUsername = "root";
 $dbPassword = "";
 $dBName = "database_customer";
 
