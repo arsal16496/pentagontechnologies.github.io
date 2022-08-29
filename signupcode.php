@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$con = mysqli_connect("main" , "user16496" , "" , "phptutorials");
+$con = mysqli_connect("main" , "arsal16496" , "" , "database_customer");
 
 
 
