@@ -1,6 +1,6 @@
 <?php
 
-$servername = "database_admin";
+$servername = "main";
 $dBUsername = "arsal16496";
 $dbPassword = "";
 $dBName = "370project";
