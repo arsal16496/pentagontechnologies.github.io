@@ -8,6 +8,8 @@ body
     font-family: sans-serif;
     margin: 0px;
     padding:0px;
+     width: 100%;
+   height: 100%;
 }
 
 
@@ -20,14 +22,14 @@ body
     background-color:white;
     color: black;
     border: 2 groove red;
-    width: 300px;
-    height:400px;
-    position: absolute;
-    left:360;
-    bottom:100;
-    padding: 60px 20px;
+   width: 29vw;
+    height:40vw;
+    position:absolute;
+     left:35%;
+    top:25% ;
+    padding: 7vw 2vw;
     box-sizing: border-box;
-    font-size: 14;
+ font-size: 1.2vw;
     border-radius: 5px;
  box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
 -webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.76);
@@ -39,11 +41,11 @@ body
 
 #avatar
 {
-    width:65px;
-    height:65px;
+        width:7vw;
+    height:7vw;
     position: absolute;
-    left:115px;
-    top:-40px;
+    left:37%;
+    top:-4vw;
     border-radius: 50%;
 }
 
@@ -53,9 +55,9 @@ body
 { 
     position: relative;
     margin: 0px;
-    padding: 0px 0px 50px;
-    text-align:center;
-    font-size: 19px;
+     padding: 0px 0px 3vw;
+    text-align: center;
+    font-size: 1.9vw;
     text-transform: capitalize;
     
 }
@@ -69,9 +71,9 @@ body
     padding: 0;
     font-weight: bold;
     position: relative;
-    bottom: 5px;
+    top: 1.5vw;
     text-transform: capitalize;
-    font-size: 14;
+    font-size: 1.4vw;
     
     
 }
@@ -81,7 +83,8 @@ body
 #login input
 {
     width: 100%;
-    margin-bottom: 23px;
+    margin-bottom: 1.8vw;
+    
 }
 
 
@@ -91,12 +94,13 @@ body
     border: 1px solid #D3D3D3;
     background: transparent;
     outline: none;
-    height: 30px;
+    height: 3vw;
     color: black;
-    font-size: 13px;
+    font-size: 1.3vw;
     border-radius: 4px;
     text-transform: lowercase;
-    
+    position: relative;
+     top: 2vw;
 }
 
 
@@ -106,12 +110,14 @@ body
     background:linear-gradient(to right top, #4767d6, #4d64ca, #5162be, #545fb2, #565da6);;
     border: none;
     outline: none;
-    height: 28px;
+    height: 2.7vw;
     color: white;
-    font-size: 18px;
+    font-size: 2vw;
     border-radius:2px;
-    position: relative;
-    bottom: 0px;
+    position:relative;
+    top: 2.5vw;
+    left: 0%;
+    width: 25.1vw;
     
 }
 
@@ -147,11 +153,12 @@ body
 #login a
 {
     text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
+   font-size: 1.2vw;
+    line-height: 2vw;
     color:darkgrey;
     position: relative;
-    bottom: 10px;
+      bottom: -2vw;
+    left: 0%;
 }
 
 
@@ -216,24 +223,27 @@ body
 header{
 	background: black;
 	color: white;
-	padding: 8px 20px 6px 40px;
-	height: 50px;
+	padding: 1vw 2.8vw .5vw 6vw;
+	height: 8vh;
 }
 
 header h1{
 	display: inline;
 	font-family: monospace;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 4vw;
 	float: left;
-	margin-top: 0px;
-	margin-right: 10px;
+	margin-top: 0vh;
+	margin-right: 2vw;
     text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    
 }
 
 nav ul {
 	display: inline;
-	padding: 0px;
+	padding: 0vw;
 	float: right;
 }
 
@@ -242,14 +252,15 @@ nav ul li{
 	list-style-type: none;
 	color: white;
 	float: left;
-	margin-left: 12px;
+	margin-left: 2vw;
 	
 
 }
 
 nav ul li a{
 	color: white;
-	text-decoration: none;	
+	text-decoration: none;
+    font-size: 1.7vw;
 }
 
 
@@ -266,7 +277,7 @@ nav ul ul{
 
 .divider{
 	background-color:#e62578;
-	height: 5px;
+	height: .5vw;
 }
 
 
@@ -279,14 +290,21 @@ nav ul ul{
 
 .homered{
 	background-color: #e62578;
-	padding: 30px 10px 23px 10px;
+	padding: 7vw 2.8vw 2.3vw 1.5vw;
 }
 
 
 .homeblack:hover{
-	background-color: grey;
-	padding: 30px 10px 23px 10px;
-   
+	
+z-index:1;
+transform: scale(1.0);
+    opacity: 2;
+    color: orange;
+    
+    
+    /*
+    padding:7vw 2.8vw 2.4vw 1.5vw;
+   */
 }
 
 
