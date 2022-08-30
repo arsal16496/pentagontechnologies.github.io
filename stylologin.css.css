@@ -8,6 +8,8 @@ body
     font-family: sans-serif;
     margin: 0px;
     padding:0px;
+    width: 100%;
+   height: 60vw
 }
 
 
@@ -20,14 +22,14 @@ body
     background-color:black;
     color: burlywood;
     border: 2 groove red;
-    width: 300px;
-    height:400px;
+    width: 30vw;
+    height:43vw;
     position: absolute;
-    left:360;
-    bottom:100;
-    padding: 60px 20px;
+    left:33%;
+    top:20% ;
+    padding: 5vw 2vw;
     box-sizing: border-box;
-    font-size: 14;
+    font-size: 1.2vw;
     border-radius: 15px;
     
 }
@@ -37,11 +39,11 @@ body
 
 #avatar
 {
-    width:65px;
-    height:65px;
+    width:7vw;
+    height:7vw;
     position: absolute;
-    left:115px;
-    top:-40px;
+    left:37%;
+    top:-4vw;
     border-radius: 50%;
 }
 
@@ -50,9 +52,9 @@ body
 #h1
 {
     margin: 0px;
-    padding: 0px 0px 20px;
+    padding: 0px 0px 3vw;
     text-align: center;
-    font-size: 22px;
+    font-size: 2.9vw;
 }
 
 
@@ -63,7 +65,9 @@ body
     margin: 0;
     padding: 0;
     font-weight: bold;
-    
+    font-size: 1.6vw;
+    position: relative;
+    top: 3vw;
 }
 
 
@@ -71,7 +75,7 @@ body
 #login input
 {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
 }
 
 
@@ -81,10 +85,11 @@ body
     border-bottom: 1px solid floralwhite;
     background: transparent;
     outline: none;
-    height: 40px;
+    height: 3.5vw;
     color: floralwhite;
-    font-size: 16px;
-    
+    font-size: 1.3vw;
+    position: relative;
+    top:3vw;
 }
 
 
@@ -94,12 +99,14 @@ body
     background:blanchedalmond;
     border: none;
     outline: none;
-    height: 40px;
+    height: 3vw;
     color: black;
-    font-size: 18px;
+    font-size: 2.2vw;
     border-radius: 20px;
-    
-    
+    position: absolute;
+    top: 68%;
+    width: 25vw;
+    left: 7%;
 }
 
 
@@ -134,9 +141,14 @@ body
 #login a
 {
     text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.2vw;
+    line-height: 2vw;
     color:darkgrey;
+    position: relative;
+    border: 0%;
+    left: 0%;
+    height: 1vw;
+    bottom: -10vw;
     
 }
 
