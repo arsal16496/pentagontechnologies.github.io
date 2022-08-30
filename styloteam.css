@@ -756,8 +756,8 @@
     box-sizing: border-box;
     font-family:'poppins' , sans-serif;
     text-transform: none;
-    transition: all 0.3 linear;
-   
+     transition: all 0.3 linear;
+    width: 100%;
 }
 
 
