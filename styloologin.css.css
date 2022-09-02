@@ -218,13 +218,11 @@ body
 
 
 
-
-
 header{
 	background: black;
 	color: white;
-	padding: 1vw 2.8vw .5vw 6vw;
-	height: 8vh;
+	padding: 1vw 2.2vw .9vw 6vw;
+	height: 6vh;
 }
 
 header h1{
@@ -237,7 +235,7 @@ header h1{
 	margin-right: 2vw;
     text-transform: uppercase;
     position: absolute;
-    top: 2%;
+    top: 1%;
     
 }
 
@@ -253,6 +251,8 @@ nav ul li{
 	color: white;
 	float: left;
 	margin-left: 2vw;
+     position: relative;
+    top: -0.3vw;
 	
 
 }
@@ -290,7 +290,7 @@ nav ul ul{
 
 .homered{
 	background-color: #e62578;
-	padding: 7vw 2.8vw 2.3vw 1.5vw;
+	padding: 7vw 2.8vw 3vh 1.5vw;
 }
 
 
@@ -321,3 +321,7 @@ h1 a
     text-decoration: none;
     color: aliceblue;
 }
+
+
+
+
