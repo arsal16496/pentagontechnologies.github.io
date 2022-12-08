@@ -1,7 +1,7 @@
 <?php
 
-$servername = "DESKTOP-M82HP5L";
-$dBUsername = "DESKTOP-M82HP5L/mak";
+$servername = "https://arsal16496.github.io/pentagontechnologies.github.io/";
+$dBUsername = "arsal16496";
 $dbPassword = "";
 $dBName = "370projects";
 
