@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$con = mysqli_connect("main" , "arsal16496" , "" , "sir");
+$con = mysqli_connect("DESKTOP-M82HP5L" , "DESKTOP-M82HP5L\mak" , "" , "sir");
 
 
 
