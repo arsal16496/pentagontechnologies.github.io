@@ -1,7 +1,7 @@
 <?php
 
 $servername = "DESKTOP-M82HP5L";
-$dBUsername = "root";
+$dBUsername = "DESKTOP-M82HP5L\mak";
 $dbPassword = "";
 $dBName = "370projects";
 
