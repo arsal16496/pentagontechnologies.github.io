@@ -3,7 +3,7 @@
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$con = new mysqli ("main" ,"arsal16496","", "phptutorials");
+$con = new mysqli ("DESKTOP-M82HP5L" ,"DESKTOP-M82HP5L\mak","", "phptutorials");
 
 
 if($con->connect_error)
