@@ -1,6 +1,6 @@
 <?php
 
-$servername = "https://arsal16496.github.io/pentagontechnologies.github.io/";
+$servername = "DESKTOP-M82HP5L";
 $dBUsername = "root";
 $dbPassword = "";
 $dBName = "370projects";
