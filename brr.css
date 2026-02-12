@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: white;
+    color: black;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a.active,
+nav a:hover {
+    color: orange;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: white;
+    color: grey;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Jobs Section */
+.jobs {
+    padding: 60px 0;
+    background: #eef2f7;
+}
+
+.job-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-card button {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-card button:hover {
+    background: orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(to right, grey,  #000000);
+    color: #fff;
+}
