@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$con = mysqli_connect("DESKTOP-M82HP5L" , "DESKTOP-M82HP5L/mak" , "" , "database_customer");
+$con = mysqli_connect("localhost" , "root" , "" , "database_customer");
 
 
 

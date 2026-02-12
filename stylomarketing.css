@@ -127,9 +127,9 @@ width: 100%;
 .paragraph p
 {
     position: absolute;
-    width: 21vw;
+    width: 25vw;
     height: 50vw;
-    left:43%;
+    left:40%;
     top: 61vw;
     font-family: sans-serif;
     text-justify: auto;
@@ -144,10 +144,10 @@ width: 100%;
 .paragraph h1
 {
      position: absolute;
-    width: 20vw;
+    width: 30vw;
     height: 20vw;
-    left:47%;
-    top: 57vw;
+    left:40%;
+    top: 55vw;
     font-family: sans-serif;
     font-size: 3vw;
 }
